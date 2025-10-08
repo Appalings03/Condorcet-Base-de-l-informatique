@@ -36,7 +36,7 @@ int main()
     }
     */
     // Code avec un seul if et des opérateurs logiques '==', '<' et '!'
-    if ((!(x < 2) && x < 3)||(!(x < 0 && x == 0) && (x < 1 || x == 0))||(!(x == -10 || x < -10) && (x ==-2 || x < -2)))
+    if ((!(x < 2) && x < 3)||(!(x < 0 && x == 0) && (x < 1 || x == 0))||(!(x < -10) && (x ==-2 || x < -2)))
     {
         cout << x << " appartient à I" << endl;
         return 0;
