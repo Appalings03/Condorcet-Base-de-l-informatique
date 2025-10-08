@@ -16,7 +16,7 @@ int main()
         ainsi que les opérateurs logiques
         Tels que && (et), || (ou), ! (non)
         /!\ n'arrive pas à compiler avec "and", "or", "not", ...  /!\
-        nécessite la librairie #include <ciso646>
+        nécessite la librairie #include <ciso646> par pour Code::Blocks
     */
     if (a>=1 && a <=10 && b>=1 && b<=10)
         cout << "a et b sont compris entre 1 et 10" << endl;
