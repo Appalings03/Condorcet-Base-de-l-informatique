@@ -1,4 +1,9 @@
-  cout << "Pensez à un champignon : amanite tue-mouches, pied bleu, girolle," << endl
+#include <iostream>
+using namespace std;
+
+int main()
+{
+cout << "Pensez à un champignon : amanite tue-mouches, pied bleu, girolle," << endl
        << "cèpe de Bordeaux, coprin chevelu ou agaric jaunissant." << endl << endl;
   
   cout << "Est-ce que votre champignon a des lamelles (1 : oui, 0 : non) ? ";
@@ -14,3 +19,5 @@
   cout << "le coprin chevelu";
   cout << "la girolle";
   cout << "le pied bleu";
+     return 0;
+}
