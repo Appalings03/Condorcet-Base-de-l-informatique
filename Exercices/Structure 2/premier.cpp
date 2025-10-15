@@ -3,15 +3,14 @@
 using namespace std;
 
 int main() {
-    int n; // utilisation de long long pour grands nombres
-    cout << "Entrez un entier n (>1) : ";
-    cin >> n;
-
-    // Vérification de la validité de l'entrée
-    if (n <= 1) {
-        cout << "Erreur : n doit être strictement supérieur à 1." << endl;
-        return 1;
-    }
+    int n;
+    do {
+        cout << "Entrez un entier n (>1) : ";
+        cin >> n;
+        if (n <= 1) {
+            cout << "Erreur : n doit être strictement supérieur à 1." << endl;
+        }
+    } while (n <= 1);
 
     // Cas particulier : 2
     if (n == 2) {
