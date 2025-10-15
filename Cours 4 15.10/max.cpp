@@ -28,8 +28,7 @@ int main()
         cin >> value;
         if (i == 0) // pour la premiere valeur saisie
         {
-            maxim = value; // initialise le max a cette premiere valeur
-            minim = value; // initialise le min a cette premiere valeur
+            maxim = minim = value; // initialise le maxet le min a cette premiere valeur
         }
 
         if (maxim < value) // si la valeur introduite est plus grande que le maximum actuel
