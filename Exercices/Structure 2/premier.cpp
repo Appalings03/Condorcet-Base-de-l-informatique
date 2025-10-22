@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include <ciso646>
 using namespace std;
 
 int main() {
@@ -26,7 +27,7 @@ int main() {
 
     // Vérification des diviseurs impairs jusqu'à sqrt(n)
     bool premier = true;
-    int diviseur = 0;
+    int diviseur;
     int limite = sqrt(n);
 
     for (int d = 3; d <= limite; d += 2) {
@@ -36,6 +37,15 @@ int main() {
             break;
         }
     }
+    // Alternative avec "and" 
+    /*
+    for (int i(3); (premier) and (i <= limite); i += 2){
+        if (n % i == 0){
+            premier = false;
+            diviseur = i;
+        }
+    }
+    */
 
     if (premier)
         cout << n << " est premier." << endl;
