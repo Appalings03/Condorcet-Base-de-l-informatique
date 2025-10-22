@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     double U = 1.0;   // U0 = 1
     double V = U;     // V0 = U0 = 1
-    cout << fixed << setprecision(7);
+    cout << fixed << setprecision(12);
 
     cout << "n\tUn\t\tVn" << endl;
     cout << "0\t" << U << "\t" << V << endl;

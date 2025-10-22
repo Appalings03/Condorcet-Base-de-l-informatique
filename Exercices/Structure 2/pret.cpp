@@ -22,15 +22,16 @@ int main() {
     double S = S0;        // montant restant à rembourser
     double interets = 0;  // somme totale des intérêts
     int mois = 0;         // compteur de mois
-
-    // --- Simulation du remboursement ---
+    cout << "mois" << "\t\t" << "pret" << "\t\t" << "interets" << endl;
+    // --- Remboursement ---
     while (S > 0) {
         double i = ir * S;     // intérêt du mois
         interets += i;         // ajout à la somme totale
-        S = S + i - r;         // nouveau solde après paiement
+        S = S - r;         // nouveau solde après paiement
         mois++;
 
         if (S < 0) S = 0; // éviter une valeur négative finale
+        cout << mois << "\t\t" << S << "\t\t" << interets << endl;
     }
 
     cout << "\nDurée du remboursement : " << mois << " mois" << endl;

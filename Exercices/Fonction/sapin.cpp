@@ -29,3 +29,14 @@ void tronc(int n){
     espaces(n-1);
     cout << "|||" << endl;
 }
+
+int main() {
+    int n;
+    cout << "Entrez la hauteur du sapin : ";
+    cin >> n;
+
+    sapin_simple(n);
+    tronc(n);
+
+    return 0;
+}
