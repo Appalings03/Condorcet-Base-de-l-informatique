@@ -27,7 +27,7 @@ int main() {
     while (S > 0) {
         double i = ir * S;     // intérêt du mois
         interets += i;         // ajout à la somme totale
-        S = S - r;         // nouveau solde après paiement
+        S = S - r;             // nouveau solde après paiement
         mois++;
 
         if (S < 0) S = 0; // éviter une valeur négative finale
