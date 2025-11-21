@@ -11,22 +11,22 @@ void espaces(int nb_espaces){
         cout << ' ';
 }
 
-void triangle(int n) {
-    for(int i=1; i<=n; ++i) {
-        espaces(n-i);
-        etoiles(2*i-1);
+void triangle(int niveau, int base) {
+    for(int i=1; i<=niveau; ++i) {
+        espaces(base - i);
+        etoiles(2*i - 1);
         cout << endl;
     }
 }
 
 void sapin_simple(int n) {
     for(int i=1; i<=n; ++i) {
-        triangle(i);
+        triangle(i, n);
     }
 }
 
 void tronc(int n){
-    espaces(n-1);
+    espaces(n - 2);
     cout << "|||" << endl;
 }
 
