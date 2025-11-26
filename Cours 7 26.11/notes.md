@@ -35,3 +35,8 @@ int demander_nombre(int a, int b)
     - <a href="../Exercices/Fonction/bool.cpp">Bool</a>
     - <a href="../Exercices/Fonction/dichotomie.cpp">Dichotomie</a>
     - <a href="../Exercices/Fonction/reseq.cpp">Racine</a>
+4. Devoir Fonnction
+    > [!CAUTION]
+    > Fonctions avancées plus difficile à comprendre
+    - <a href="../Devoir/Fonction/lireetdire.cpp">Lire et dire</a>
+    - <a href="../Devoir/Fonction/mastermind.cpp">Master Mind</a>
