@@ -29,4 +29,9 @@ int demander_nombre(int a, int b)
     - <a href="../Exercices/Fonction/fibonacci.cpp">fibonacci.cpp</a>
     - <a href="exo2.cpp">exo2.cpp</a>
     > Exercices sur les fonctions recursives et itératives
-3. Exercices sur 
+3. Exercices supplémentaires$
+    - <a href="../Exercices/Fonction/simple.cpp">FSimple</a>
+    - <a href="../Exercices/Fonction/sapin.cpp">Sapin</a>
+    - <a href="../Exercices/Fonction/bool.cpp">Bool</a>
+    - <a href="../Exercices/Fonction/dichotomie.cpp">Dichotomie</a>
+    - <a href="../Exercices/Fonction/reseq.cpp">Racine</a>

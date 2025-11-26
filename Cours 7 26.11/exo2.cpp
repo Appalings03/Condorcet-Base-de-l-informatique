@@ -1,6 +1,4 @@
 #include <iostream>
-#include <limits>
-#include <string>
 #include <ciso646>
 using namespace std;
 
