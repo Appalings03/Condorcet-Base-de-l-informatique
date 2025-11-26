@@ -30,7 +30,7 @@ void sapin_simple(int sections) {
 
     for (int s = 1; s <= sections; ++s) {
 
-        // Puis un triangle de taille s+1 (section tronquée)
+        // Puis un triangle de taille s+1
         triangle(s + 1, base_max);
     }
     tronc(base_max);
@@ -38,8 +38,7 @@ void sapin_simple(int sections) {
 
 // Affiche un triangle de "lignes" avec largeur initiale "start"
 // Chaque ligne ajoute 2 étoiles, centré sur base_max
-void triangle_custom(int start, int lignes, int base_max) {
-    int nb_etoiles = start;
+void triangle_custom(int nb_etoiles, int lignes, int base_max) {
     for (int i = 0; i < lignes; ++i) {
         espaces(base_max - nb_etoiles / 2 - 1);
         etoiles(nb_etoiles);
